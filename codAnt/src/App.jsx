@@ -1,13 +1,13 @@
-import { useState } from 'react'
-
 import './App.css'
 
+import SignInPage2 from './pages/SignInPage/SignInPage2'
+
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     
+<SignInPage2/>
     </>
   )
 }
